@@ -20,22 +20,28 @@ text-align: center;
   flex-wrap: wrap;
 }
 
-.box1 {
-        display:flex;
-        flex-direction: row;
-        align-items: stretch;
-        width: 100%;
-        height:500px;
-        }
+.box1 
+{
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    height:500px;
+}
         
 .box2
-        {
-            display:flex;
+{
+    display:flex;
             
-        }
+}
         
         
 .refer {background-color: #a6adac; text-align: left;}
+
+
+.menupadding {margin-top: 50px;}
+
+
             
 /* h1 {font-size: 50px; text-align: left; color: black ;background-color: rgb(66, 71, 71); float: left; }
 
