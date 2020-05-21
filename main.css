@@ -1,0 +1,85 @@
+    @import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+
+   *{  box-sizing: border-box;padding:25px;font-family: 'Martel', serif; } /* padding:25px 50px 75px 100px;  //top botom left right */   
+    
+    body {background-color: lightgray; text-align: center;/* background-image: url(mario_background.jpg);*/     }
+
+    h1 {font-size: 50px; text-align: left; }
+
+/*rollovaci menu */
+
+.Questions_h2 { background-color: darkgray;}
+
+.menu1 a {    
+    color:black;  
+    font-weight:bolder; 
+    text-decoration:none; 
+    text-transform:uppercase; 
+    font-family:Arial, Helvetica, sans-serif; 
+    }
+    
+.menu1 ul li ul {
+    display:none;
+    }
+    
+.menu1 ul li {
+    float:left;
+    list-style:none;
+    width:190px;
+    height:40px;
+    background:darkgrey;
+    text-align:center;
+    padding-top:12px;
+    border-right:2px solid black;
+    }
+    
+.menu1 ul li:hover {
+    background: #466A7F;
+
+    }
+    
+.menu1 ul ul {
+    margin-top:10px;
+    }
+    
+.menu1 ul li ul li {
+    margin-left:-40px;
+    }
+    
+.menu1 ul li:hover > ul {display:block;}
+.menu1 ul li ul li {background: darkgrey;}
+.menu1 ul li ul li:hover {background: #466A7F;}
+/*rollovaci menu */
+
+    .div_top {color:maroon; }
+   
+    .div_menu {background-color:darkgrey; ; border-top: 3px solid black; border-left: 3px solid black; border-bottom: 3px solid black; border-right: 3px solid black}
+
+    .div_text {background-color: yellow;border-top: 3px solid black; border-left: 3px solid black; border-bottom: 3px solid black; border-right: 3px solid black    }
+
+    .div_table {color:orange;background-color: black;   }
+
+    .div_odkazy {background-color: blue;    }
+ 
+    .div_image_cat {text-align: right;border-top: 3px solid red; }
+    
+    p {color:black;}
+   
+    h2 {color:rgb(255, 99, 71, 0.8) /* adding background, really handy if you got hard to read background  */     
+    }
+
+    h3 {color:rgb(255, 99, 71)
+    }  
+
+    img{width: 100%;    }
+
+    /*img {vertical-align: middle; float: right;}*/
+    
+/* poznamka symbol v css celkem handy 
+
+* {color:black} nastavi do celeho dokumentu *****znak 
+
+ID is exception to  the code... its must be unique
+ID= # 
+
+have to use classes instead 
