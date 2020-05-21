@@ -1,14 +1,49 @@
     @import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
 
-   *{  box-sizing: border-box;padding:25px;font-family: 'Martel', serif; } /* padding:25px 50px 75px 100px;  //top botom left right */   
+*{ box-sizing: border-box;padding:25px;font-family: 'Martel', serif; } /* padding:25px 50px 75px 100px;  //top botom left right */   
     
-    body {background-color: lightgray; text-align: center;/* background-image: url(mario_background.jpg);*/     }
+body {background-color: lightgray; text-align: center;/* background-image: url(mario_background.jpg);*/     }
 
-    h1 {font-size: 50px; text-align: left; }
+h1 {font-size: 50px; text-align: left; color: black ;background-color: rgb(66, 71, 71); }
 
 /*rollovaci menu */
 
-.Questions_h2 { background-color: darkgray;}
+/*.Questions_h2 { background-color:rgb(166, 173, 172, 0.8) ;}*/
+
+
+
+/*.div_top {}*/
+   
+.div_menu { border-top: 3px solid black; border-left: 3px solid black; border-bottom: 3px solid black; border-right: 3px solid black}
+
+ 
+.div_image_cat {border-top: 3px solid black; border-left: 3px solid black; border-bottom: 3px solid black; border-right: 3px solid black   }
+    
+/* p{background: #a6adac;}  */
+.Questions_h2 {background-color: #a6adac; }
+ 
+h1 {text-align: left;}
+
+h2 {color:rgb(166, 173, 172, 0.8) /* adding background, really handy if you got hard to read background  */     
+    }
+
+h3 {color:rgb(255, 99, 71)
+    }  
+
+img{width: 50%;    } 
+
+
+
+    /*img {vertical-align: middle; float: right;}*/
+    
+/* poznamka symbol v css celkem handy 
+
+* {color:black} nastavi do celeho dokumentu *****znak 
+
+ID is exception to  the code... its must be unique
+ID= # 
+
+have to use classes instead */
 
 .menu1 a {    
     color:black;  
@@ -30,7 +65,8 @@
     background:darkgrey;
     text-align:center;
     padding-top:12px;
-    border-right:2px solid black;
+    border:2px solid black;
+
     }
     
 .menu1 ul li:hover {
@@ -50,36 +86,3 @@
 .menu1 ul li ul li {background: darkgrey;}
 .menu1 ul li ul li:hover {background: #466A7F;}
 /*rollovaci menu */
-
-    .div_top {color:maroon; }
-   
-    .div_menu {background-color:darkgrey; ; border-top: 3px solid black; border-left: 3px solid black; border-bottom: 3px solid black; border-right: 3px solid black}
-
-    .div_text {background-color: yellow;border-top: 3px solid black; border-left: 3px solid black; border-bottom: 3px solid black; border-right: 3px solid black    }
-
-    .div_table {color:orange;background-color: black;   }
-
-    .div_odkazy {background-color: blue;    }
- 
-    .div_image_cat {text-align: right;border-top: 3px solid red; }
-    
-    p {color:black;}
-   
-    h2 {color:rgb(255, 99, 71, 0.8) /* adding background, really handy if you got hard to read background  */     
-    }
-
-    h3 {color:rgb(255, 99, 71)
-    }  
-
-    img{width: 100%;    }
-
-    /*img {vertical-align: middle; float: right;}*/
-    
-/* poznamka symbol v css celkem handy 
-
-* {color:black} nastavi do celeho dokumentu *****znak 
-
-ID is exception to  the code... its must be unique
-ID= # 
-
-have to use classes instead 
