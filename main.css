@@ -1,12 +1,14 @@
-    @import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
 
 *{box-sizing: border-box; padding:25px ;font-family: 'Martel', serif; } /* padding:25px 50px 75px 100px;  //top botom left right */   
     
 body {
   /*  display: flex; 
-    flex-direction: row; 
- /*  margin: auto; */ 
-    background-color: lightgray; text-align: center;    }
+    flex-direction: row; */
+margin: auto;  
+background-color: lightgray; 
+text-align: center;   
+}
 
 .container1
 {
@@ -35,8 +37,7 @@ body {
         
 .refer {background-color: #a6adac; text-align: left;}
             
-/*
-h1 {font-size: 50px; text-align: left; color: black ;background-color: rgb(66, 71, 71); float: left; }
+/* h1 {font-size: 50px; text-align: left; color: black ;background-color: rgb(66, 71, 71); float: left; }
 
 /*rollovaci menu */
 
@@ -99,8 +100,8 @@ h1 {text-align: left;}
     margin-left:-40px;
     }
     
-.menu1 ul li:hover > ul {display:block;margin: 0;
-padding: 4px 0 0 0;}
+.menu1 ul li:hover > ul {display:block;margin:0;
+padding: 2px 0 0 0;}
 .menu1 ul li ul li {background: darkgrey;}
 .menu1 ul li ul li:hover {background: #466A7F;}
 /*rollovaci menu */
