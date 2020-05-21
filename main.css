@@ -1,9 +1,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
 
-*{
-
-    
-    box-sizing: border-box; padding:25px ;font-family: 'Martel', serif; } /* padding:25px 50px 75px 100px;  //top botom left right */   
+*{box-sizing: border-box; padding:25px ;font-family: 'Martel', serif; } /* padding:25px 50px 75px 100px;  //top botom left right */   
     
 body {
   /*  display: flex; 
@@ -49,7 +46,7 @@ h1 {font-size: 50px; text-align: left; color: black ;background-color: rgb(66, 7
 h1 {text-align: left;}
 
 
-
+/* #menu didnt work for me :/*/
 
 .menu1 {
     display: flex;
