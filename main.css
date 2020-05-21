@@ -31,6 +31,9 @@ body {
             display:flex;
             
         }
+        
+        
+.refer {background-color: #a6adac; text-align: left;}
             
 /*
 h1 {font-size: 50px; text-align: left; color: black ;background-color: rgb(66, 71, 71); float: left; }
@@ -42,6 +45,8 @@ h1 {font-size: 50px; text-align: left; color: black ;background-color: rgb(66, 7
 /* p{background: #a6adac;}  */
 
 .Questions_h2 {background-color: #a6adac; }
+
+
  
 h1 {text-align: left;}
 
